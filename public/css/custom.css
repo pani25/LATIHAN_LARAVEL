@@ -1,0 +1,14 @@
+/* ini untuk animasi gambar */
+
+.animation {
+  animation: MoveUpDown 3s ease-in-out infinite alternate-reverse both;
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
